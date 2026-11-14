@@ -1,12 +1,5 @@
 # claude-code-buddy-bridge
 
-> **来源说明**：本仓库源自 [coldwateryi/claude-code-buddy-bridge](https://github.com/coldwateryi/claude-code-buddy-bridge)（原始创建于 2026-06-14），现由 liudan4yi 接手维护并继续开发。历史提交未同步，本仓库从当前快照重新起步。
->
-> **Origin**: forked from [coldwateryi/claude-code-buddy-bridge](https://github.com/coldwateryi/claude-code-buddy-bridge) (originally created 2026-06-14). History was not carried over; this repo starts fresh from a snapshot of the code.
-
-Connect the [claude-desktop-buddy-esp32](../claude-desktop-buddy-esp32) hardware
-device to **Claude Code CLI**.
-
 The ESP32 buddy device was built for Claude Desktop, which speaks a BLE
 Nordic-UART JSON protocol directly. Claude Code is a CLI and does not speak BLE
 — so this bridge sits in between:
